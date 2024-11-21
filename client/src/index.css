@@ -1,0 +1,6 @@
+@tailwind base; 
+ /* This directive imports the base styles from Tailwind CSS. These are pre-defined styles that set some global CSS properties, such as resetting or normalizing styles, and making sure your design is consistent across different browsers. */
+@tailwind components;
+/* This imports Tailwind's component styles. These are utility classes and component-based designs such as buttons, forms, or grids, which you can use to style your UI. */
+@tailwind utilities;
+/* This brings in Tailwind’s utility classes. These classes allow you to apply styles directly to HTML elements, such as p-4 for padding, bg-blue-500 for background color, and so on. */
